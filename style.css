@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0f2c; /* Azul oscuro */
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  margin-bottom: 30px;
+}
+
+.links a {
+  display: block;
+  background-color: #1a1f4c;
+  color: white;
+  padding: 15px 20px;
+  margin: 10px auto;
+  width: 200px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #2d3a7a;
+}
