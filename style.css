@@ -38,3 +38,41 @@ body {
 .links a:hover {
   background-color: #2d3a7a;
 }
+
+@media (min-width: 1025px) {
+  .foto {
+    width: 200px;
+    height: 200px;
+  }
+
+  .links a {
+    width: 300px;
+    font-size: 18px;
+  }
+}
+
+/* 📱 Media query para celulares */
+@media (max-width: 600px) {
+  .foto {
+    width: 120px;
+    height: 120px;
+  }
+
+  .links a {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+
+/* 📱📱 Media query para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .foto {
+    width: 140px;
+    height: 140px;
+  }
+
+  .links a {
+    width: 80%;
+    font-size: 17px;
+  }
+}
